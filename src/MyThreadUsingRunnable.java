@@ -1,5 +1,5 @@
 //Creating thread using Runnable
-public class MyThread implements Runnable{
+public class MyThreadUsingRunnable implements Runnable{
 
 
     @Override
@@ -14,8 +14,10 @@ public class MyThread implements Runnable{
     }
     public static  void main(String[] args)
     {
-        MyThread t= new MyThread();
-        Thread thread= new Thread(t);
-        thread.start();
+        MyThreadUsingRunnable t= new MyThreadUsingRunnable();
+        Thread threadRunnable= new Thread(t);
+        MyThreadUsingThreadClass myThreadUsingThreadClass=new MyThreadUsingThreadClass();
+        threadRunnable.start();
+        myThreadUsingThreadClass.start();
     }
 }
