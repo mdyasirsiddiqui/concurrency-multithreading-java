@@ -1,6 +1,6 @@
 # Java Concurrency & Multithreading Practice
 
-A growing collection of **interview questions, code examples, and conceptual notes** covering all major topics in Java concurrency and multithreading. This repository is designed to help developers (especially preparing for 3–5 years experience interviews) strengthen their understanding of threading, synchronization, and concurrent programming patterns.
+A growing collection of **interview questions, code examples, and conceptual notes** covering all major topics in Java concurrency and multithreading. This repository is designed to strengthen  understanding of threading, synchronization, and concurrent programming patterns.
 
 ---
 
