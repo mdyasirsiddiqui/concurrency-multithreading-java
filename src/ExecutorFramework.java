@@ -14,7 +14,7 @@ public class ExecutorFramework {
         Callable<Integer> callable1=()-> {
             System.out.println("task 1");
             return 1;
-    };
+        };
 
         Callable<Integer> callable2=()->2;
         Callable<Integer> callable3=()->3;
